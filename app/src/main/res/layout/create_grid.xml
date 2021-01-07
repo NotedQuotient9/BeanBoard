@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/holdGrids"
+    android:background="#426391"
+    >
+
+
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hold1"
+                android:tag="1"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold1"
+                android:onClick="selectHold"
+                />
+
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+                android:id="@+id/hold2"
+                android:padding="4dp"
+                android:tag="2"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold2"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold3"
+                android:padding="4dp"
+                android:tag="3"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold3"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold4"
+                android:padding="5dp"
+                android:tag="4"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold4"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold5"
+                android:padding="5dp"
+                android:tag="5"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold5"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold6"
+                android:padding="5dp"
+                android:tag="6"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold6"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold7"
+                android:padding="1dp"
+                android:tag="7"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold7"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold8"
+                android:padding="5dp"
+                android:tag="8"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold8"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold9"
+                android:padding="5dp"
+                android:tag="9"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold9"
+                android:onClick="selectHold"
+                />
+
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grid1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid2"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+                android:id="@+id/hold10"
+                android:padding="4dp"
+                android:tag="10"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold10"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold11"
+                android:padding="4dp"
+                android:tag="11"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold11"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold12"
+                android:padding="2dp"
+                android:tag="12"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold12"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid3"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/hold13"
+                android:padding="4dp"
+                android:tag="13"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold13"
+
+                />
+            <ImageView
+                android:id="@+id/hold14"
+                android:padding="4dp"
+                android:tag="14"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold14"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold15"
+                android:padding="4dp"
+                android:tag="15"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold15"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold16"
+                android:padding="5dp"
+                android:tag="16"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold16"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold17"
+                android:padding="5dp"
+                android:tag="17"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold17"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold18"
+                android:padding="5dp"
+                android:tag="18"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold18"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold19"
+                android:padding="5dp"
+                android:tag="19"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold19"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold20"
+                android:padding="5dp"
+                android:tag="20"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold20"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold21"
+                android:padding="2dp"
+                android:tag="21"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold21"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold22"
+                android:padding="5dp"
+                android:tag="22"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold22"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid4"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hold23"
+                android:tag="23"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold23"
+                android:onClick="selectHold"
+                />
+
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+                android:id="@+id/hold24"
+                android:padding="4dp"
+                android:tag="24"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold24"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold25"
+                android:padding="4dp"
+                android:tag="25"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold25"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold26"
+                android:padding="0dp"
+                android:tag="26"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold26"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold27"
+                android:padding="5dp"
+                android:tag="27"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold27"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold28"
+                android:padding="5dp"
+                android:tag="28"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold28"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold29"
+                android:padding="5dp"
+                android:tag="29"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold29"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold30"
+                android:padding="5dp"
+                android:tag="30"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold30"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold31"
+                android:padding="6dp"
+                android:tag="31"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold31"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold32"
+                android:padding="5dp"
+                android:tag="32"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold32"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold33"
+                android:padding="5dp"
+                android:tag="33"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold33"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+
+
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid5"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/hold34"
+                android:padding="4dp"
+                android:tag="34"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold34"
+
+                />
+            <ImageView
+                android:id="@+id/hold35"
+                android:padding="2dp"
+                android:tag="35"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold35"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold36"
+                android:padding="4dp"
+                android:tag="36"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold36"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold37"
+                android:padding="5dp"
+                android:tag="37"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold37"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold38"
+                android:padding="5dp"
+                android:tag="38"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold38"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold39"
+                android:padding="3dp"
+                android:tag="39"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold39"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold40"
+                android:padding="3dp"
+                android:tag="40"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold40"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold41"
+                android:padding="3dp"
+                android:tag="41"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold41"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold42"
+                android:padding="1dp"
+                android:tag="42"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold42"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold43"
+                android:padding="3dp"
+                android:tag="43"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold43"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid6"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/hold44"
+                android:padding="3dp"
+                android:tag="44"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold44"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold45"
+                android:padding="6dp"
+                android:tag="45"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold45"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold46"
+                android:padding="4dp"
+                android:tag="46"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold46"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold47"
+                android:padding="5dp"
+                android:tag="47"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold47"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold48"
+                android:padding="5dp"
+                android:tag="48"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold48"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold49"
+                android:padding="1dp"
+                android:tag="49"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold49"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold50"
+                android:padding="3dp"
+                android:tag="50"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold50"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold51"
+                android:padding="3dp"
+                android:tag="51"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold51"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold52"
+                android:padding="5dp"
+                android:tag="52"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold52"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold53"
+                android:padding="3dp"
+                android:tag="53"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold53"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold54"
+                android:padding="3dp"
+                android:tag="54"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold54"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold55"
+                android:padding="1dp"
+                android:tag="55"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold55"
+                android:onClick="selectHold"
+                />
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid7"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/hold56"
+                android:padding="3dp"
+                android:tag="56"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold56"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold57"
+                android:padding="4dp"
+                android:tag="57"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold57"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold58"
+                android:padding="4dp"
+                android:tag="58"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold58"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold59"
+                android:padding="5dp"
+                android:tag="59"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold59"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold60"
+                android:padding="5dp"
+                android:tag="60"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold60"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold61"
+                android:padding="5dp"
+                android:tag="61"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold61"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold62"
+                android:padding="3dp"
+                android:tag="62"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold62"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold63"
+                android:padding="3dp"
+                android:tag="63"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold63"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold64"
+                android:padding="3dp"
+                android:tag="64"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold64"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold65"
+                android:padding="5dp"
+                android:tag="65"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold65"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold66"
+                android:padding="5dp"
+                android:tag="66"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold66"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid8"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+                android:id="@+id/hold67"
+                android:padding="2dp"
+                android:tag="67"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold67"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold68"
+                android:padding="4dp"
+                android:tag="68"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold68"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold69"
+                android:padding="5dp"
+                android:tag="69"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold69"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold70"
+                android:padding="5dp"
+                android:tag="70"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold70"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold71"
+                android:padding="3dp"
+                android:tag="71"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold71"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold72"
+                android:tag="72"
+                android:padding="3dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold72"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold73"
+                android:tag="73"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold73"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold74"
+                android:padding="1dp"
+                android:tag="74"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold74"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold75"
+                android:tag="75"
+                android:padding="3dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold75"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold76"
+                android:padding="2dp"
+                android:tag="76"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold76"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold77"
+                android:padding="2dp"
+                android:tag="77"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold77"
+                android:onClick="selectHold"
+                />
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid9"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hold78"
+                android:tag="78"
+                android:padding="3dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold78"
+                android:onClick="selectHold"
+                />
+
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+                android:id="@+id/hold79"
+                android:tag="79"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold79"
+                android:onClick="selectHold"
+                />
+            <ImageView
+
+                android:padding="4dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+                android:id="@+id/hold80"
+                android:padding="5dp"
+                android:tag="80"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold80"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold81"
+                android:padding="2dp"
+                android:tag="81"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold81"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold82"
+                android:padding="3dp"
+                android:tag="82"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold82"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold83"
+                android:tag="83"
+                android:padding="2dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold83"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold84"
+                android:tag="84"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold84"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold85"
+                android:padding="5dp"
+                android:tag="85"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold85"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold86"
+                android:tag="86"
+                android:padding="2dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold86"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid10"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hold87"
+                android:tag="87"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold87"
+                android:onClick="selectHold"
+                />
+
+
+            <ImageView
+                android:id="@+id/hold88"
+                android:tag="88"
+                android:padding="3dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold88"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold89"
+                android:padding="4dp"
+                android:tag="89"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold89"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold90"
+                android:padding="4dp"
+                android:tag="90"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold90"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold91"
+                android:padding="3dp"
+                android:tag="91"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold91"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold92"
+                android:padding="3dp"
+                android:tag="92"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold92"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold93"
+                android:padding="3dp"
+                android:tag="93"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold93"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold94"
+                android:tag="94"
+                android:padding="3dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold94"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold95"
+                android:tag="95"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold95"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold96"
+                android:padding="5dp"
+                android:tag="96"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold96"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold97"
+                android:padding="5dp"
+                android:tag="97"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold97"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid11"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/hold98"
+                android:tag="98"
+                android:padding="1dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="selectHold"
+                android:src="@drawable/hold98"
+
+                />
+            <ImageView
+                android:id="@+id/hold99"
+                android:padding="4dp"
+                android:tag="99"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold99"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold100"
+                android:padding="2dp"
+                android:tag="100"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold100"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold101"
+                android:padding="3dp"
+                android:tag="101"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold101"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold102"
+                android:padding="5dp"
+                android:tag="102"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold102"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold103"
+                android:padding="3dp"
+                android:tag="103"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold103"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold104"
+                android:padding="3dp"
+                android:tag="104"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold104"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold105"
+                android:padding="3dp"
+                android:tag="105"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold105"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold106"
+                android:padding="3dp"
+                android:tag="106"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold106"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_marginTop="-30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid12"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+
+
+                />
+            <ImageView
+
+                android:padding="4dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                />
+            <ImageView
+                android:id="@+id/hold107"
+                android:padding="4dp"
+                android:tag="107"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold107"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold108"
+                android:padding="2dp"
+                android:tag="108"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold108"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold109"
+                android:padding="2dp"
+                android:tag="109"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold109"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold110"
+                android:padding="1dp"
+                android:tag="110"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold110"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold111"
+                android:padding="3dp"
+                android:tag="111"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold111"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold112"
+                android:padding="3dp"
+                android:tag="112"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold112"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold113"
+                android:padding="5dp"
+                android:tag="113"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold113"
+                android:onClick="selectHold"
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid17"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+            <ImageView
+                android:id="@+id/hold114"
+                android:padding="4dp"
+                android:tag="114"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold114"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold115"
+                android:padding="1dp"
+                android:tag="115"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold115"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold116"
+                android:padding="2dp"
+                android:tag="116"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold116"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold117"
+                android:padding="0.5dp"
+                android:tag="117"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold117"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold118"
+                android:padding="1dp"
+                android:tag="118"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold118"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold119"
+                android:padding="3dp"
+                android:tag="119"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold119"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold120"
+                android:padding="2dp"
+                android:tag="120"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold120"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold121"
+                android:padding="2dp"
+                android:tag="121"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold121"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid13"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/hold122"
+                android:tag="122"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold122"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold123"
+                android:padding="4dp"
+                android:tag="123"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold123"
+                android:onClick="selectHold"
+                />
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+            <ImageView
+                android:id="@+id/hold124"
+                android:padding="5dp"
+                android:tag="124"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold124"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold125"
+                android:padding="4dp"
+                android:tag="125"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold125"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+
+            <ImageView
+
+                android:padding="5dp"
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+
+                />
+
+            <ImageView
+                android:id="@+id/hold126"
+                android:tag="126"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold126"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold127"
+                android:padding="1dp"
+                android:tag="127"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold127"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold128"
+                android:tag="128"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold128"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold129"
+                android:padding="2dp"
+                android:tag="129"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold129"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid14"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+                />
+
+
+            <ImageView
+                android:id="@+id/hold130"
+                android:tag="130"
+                android:padding="4dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold130"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold131"
+                android:padding="2dp"
+                android:tag="131"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold131"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold132"
+                android:padding="5dp"
+                android:tag="132"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold132"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold133"
+                android:padding="3dp"
+                android:tag="133"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold133"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold134"
+                android:padding="3dp"
+                android:tag="134"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold134"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold135"
+                android:padding="3dp"
+                android:tag="135"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold135"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold136"
+                android:padding="2dp"
+                android:tag="136"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold136"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold137"
+                android:padding="3dp"
+                android:tag="137"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold137"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold138"
+                android:padding="1dp"
+                android:tag="138"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold138"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold139"
+                android:padding="3dp"
+                android:tag="139"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold139"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+
+            <ImageView
+                android:id="@+id/hold140"
+                android:padding="2dp"
+                android:tag="140"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold140"
+                android:onClick="selectHold"
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid15"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hold141"
+                android:tag="141"
+                android:padding="2dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold141"
+                android:onClick="selectHold"
+                />
+
+
+            <ImageView
+                android:id="@+id/hold142"
+                android:tag="142"
+                android:padding="2dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold142"
+                android:onClick="selectHold"
+                />
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+            <ImageView
+                android:id="@+id/hold143"
+                android:padding="1dp"
+                android:tag="143"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold143"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold144"
+                android:padding="5dp"
+                android:tag="144"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold144"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold145"
+                android:padding="2dp"
+                android:tag="145"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold145"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold146"
+                android:padding="1dp"
+                android:tag="146"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold146"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold147"
+                android:padding="1dp"
+                android:tag="147"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold147"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold148"
+                android:padding="1dp"
+                android:tag="148"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold148"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold149"
+                android:padding="4dp"
+                android:tag="149"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold149"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold150"
+                android:padding="5dp"
+                android:tag="150"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold150"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold151"
+                android:padding="2dp"
+                android:tag="151"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold151"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:id="@+id/grid16"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/base_image_blank"
+                />
+
+
+            <ImageView
+                android:id="@+id/hold152"
+                android:tag="152"
+                android:padding="1dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+
+                android:src="@drawable/hold152"
+                android:onClick="selectHold"
+                />
+            <ImageView
+                android:id="@+id/hold153"
+                android:padding="1dp"
+                android:tag="153"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold153"
+                android:onClick="selectHold"
+                />
+<!--            extra hold added in late so number is weird-->
+            <ImageView
+                android:id="@+id/hold162"
+                android:tag="162"
+                android:onClick="selectHold"
+                android:paddingTop="5dp"
+                android:paddingHorizontal="0.5dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold162"
+                />
+            <ImageView
+                android:id="@+id/hold154"
+                android:padding="2dp"
+                android:tag="154"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold154"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/base_image_blank"
+                />
+
+            <ImageView
+                android:id="@+id/hold155"
+                android:padding="2dp"
+                android:tag="155"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold155"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold156"
+                android:padding="2dp"
+                android:tag="156"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold156"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold157"
+                android:padding="5dp"
+                android:tag="157"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold157"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold158"
+                android:padding="2dp"
+                android:tag="158"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold158"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold159"
+                android:padding="1dp"
+                android:tag="159"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold159"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold160"
+                android:padding="2dp"
+                android:tag="160"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold160"
+                android:onClick="selectHold"
+                />
+
+            <ImageView
+                android:id="@+id/hold161"
+                android:padding="3dp"
+                android:tag="161"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/hold161"
+                android:onClick="selectHold"
+                />
+
+        </GridLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_current">
+
+    <fragment
+        android:id="@+id/navigation_create"
+        android:name="com.example.beanboard.CreateFragment"
+        android:label="Create New Problem"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/navigation_select"
+        android:name="com.example.beanboard.SelectFragment"
+        android:label="Select New Problem"
+        tools:layout="@layout/fragment_select" />
+
+    <fragment
+        android:id="@+id/navigation_current"
+        android:name="com.example.beanboard.CurrentFragment"
+        android:label="Current Problem"
+        tools:layout="@layout/fragment_current" />
+</navigation>

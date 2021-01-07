@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "301283902782",
+    "firebase_url": "https://beanboard-ab531.firebaseio.com",
+    "project_id": "beanboard-ab531",
+    "storage_bucket": "beanboard-ab531.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301283902782:android:ee622ae2aa498c372dd86f",
+        "android_client_info": {
+          "package_name": "com.example.beanboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301283902782-8nsi183bfdvq9a35luu1q4tvvhb90dff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC54REtpAvhLH71S3QtnXUAUH1cLJYFh_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301283902782-8nsi183bfdvq9a35luu1q4tvvhb90dff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

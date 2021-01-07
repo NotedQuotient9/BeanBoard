@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CurrentFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noProblemText"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="No Problem Selected!"
+        android:visibility="visible"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/currentRouteInfo"
+
+        android:visibility="gone">
+
+
+
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/currentRouteGrade"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:id="@+id/grid_layout"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentHolds"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <include layout="@layout/create_grid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <Button
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentHolds"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.5"
+            android:id="@+id/completeCurrentRoute"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:text="Complete"/>
+
+        <Button
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentHolds"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.5"
+            android:id="@+id/showRouteInfo"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:text=" Show Info"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/showRouteInfo"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:visibility="gone"
+            android:id="@+id/infoBox">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route Name"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/currentRouteName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route Creator"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/currentRouteName"
+                android:id="@+id/currentRouteCreator"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route Name"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/currentRouteCreator"
+                android:id="@+id/currentRouteGrade"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <!--        </LinearLayout>-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            app:layout_constraintTop_toBottomOf="@id/currentHolds"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            android:id="@+id/completeCurrentRoute"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:visibility="gone"-->
+<!--            android:clickable="true"-->
+<!--            android:src="@drawable/ic_check_circle" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:background="@android:drawable/dialog_holo_light_frame">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    android:id="@+id/currentRouteName"-->
+<!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                    app:layout_constraintRight_toRightOf="parent"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:text="Current Route Name"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/currentRouteName"-->
+<!--                    android:id="@+id/currentRouteCreator"-->
+<!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                    app:layout_constraintRight_toRightOf="parent"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:text="Current Route Creator"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/currentRouteGrade"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/currentRouteCreator"-->
+<!--                    app:layout_constraintRight_toRightOf="parent"-->
+<!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:text="current Grade"-->
+<!--                    />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+</FrameLayout>

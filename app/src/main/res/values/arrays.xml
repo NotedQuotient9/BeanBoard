@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grades">
+        <item>5+</item>
+        <item>6A</item>
+        <item>6A+</item>
+        <item>6B</item>
+        <item>6B+</item>
+        <item>6C</item>
+        <item>6C+</item>
+        <item>7A</item>
+        <item>7A+</item>
+        <item>7B</item>
+        <item>7B+</item>
+        <item>7C</item>
+        <item>7C+</item>
+        <item>8A</item>
+        <item>8A+</item>
+        <item>8B</item>
+        <item>8B+</item>
+        <item>8C</item>
+        <item>8C+</item>
+    </string-array>
+</resources>
